@@ -38,17 +38,17 @@ public class Main {
                                 if (playerB.equalsIgnoreCase("R")) {    //Rock vs Rock
                                     System.out.println("It's a tie! R - R");
                                 } else if (playerB.equalsIgnoreCase("P")) {     //Rock vs Paper
-                                    System.out.println("Player B Wins! R - P");
+                                    System.out.println("Paper covers Rock! Player B Wins! R - P");
                                 } else {
-                                    System.out.println("Player A Wins! R - S");     //Rock vs Scissors
+                                    System.out.println("Rock breaks Scissors! Player A Wins! R - S");     //Rock vs Scissors
                                 }
                             } else if (playerA.equalsIgnoreCase("P")) { //if statement for if player A plays Paper
                                 if (playerB.equalsIgnoreCase("P")) { //Paper vs Paper
                                     System.out.println("It's a tie! P - P");
                                 } else if (playerB.equalsIgnoreCase("S")) { //Paper vs Scissors
-                                    System.out.println("Player B Wins! P - S");
+                                    System.out.println("Scissors cuts Paper! Player B Wins! P - S");
                                 } else {    //Paper vs Rock
-                                    System.out.println("Player A Wins! P - R");
+                                    System.out.println("Paper covers Rock! Player A Wins! P - R");
                                 }
                             } else //For if player A plays Scissors
                             {
@@ -57,10 +57,10 @@ public class Main {
                                     System.out.println("It's a tie! S - S");
                                 } else if (playerB.equalsIgnoreCase("R"))       //Scissors vs Rock
                                 {
-                                    System.out.println("Player B Wins! S - R");
+                                    System.out.println("Rock breaks Scissors! Player B Wins! S - R");
                                 } else      //Scissors vs Paper
                                 {
-                                    System.out.println("Player A Wins! S - P");
+                                    System.out.println("Scissors cuts Paper! Player A Wins! S - P");
                                 }
                             }
                             //End player B error checking
